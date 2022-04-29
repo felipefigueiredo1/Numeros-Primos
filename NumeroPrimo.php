@@ -1,4 +1,10 @@
 <?php
+/**
+ * Crie uma função que receba como parâmetro 2 números  inteiros (inicial e final)  
+ * e retorne um array com os números primos estão compreendidos entre o valor inicial e o final,
+ * desprezando o número inicial e final recebidos como parâmetro. 
+ */
+
 
 class NumeroPrimo
 {
@@ -30,6 +36,7 @@ class NumeroPrimo
     }
 }
 
+//Abaixo seguindo o exemplo de teste para demonstração
 $obj = new NumeroPrimo;
 $obj->inicio = 10;
 $obj->final  = 29;
